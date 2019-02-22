@@ -32,8 +32,9 @@ list_data = value[3:]
 
 print(list_data)
 
-myarray = np.asanyarray(list_data,float)
+myarray = np.asanyarray(list_data, float)
 
+myarray=10*myarray
 
 a = np.reshape(myarray, (x, 38))
 
